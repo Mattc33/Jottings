@@ -1,0 +1,17 @@
+$color: white;
+
+.app_Container{
+    background-color: $color;
+}
+
+.input_Container{
+    margin: 0 auto;
+    margin-top: 5%;
+    text-align: center;
+    .input{
+        width: 50%;
+        height: 25px;
+        font-size: 25px;
+        border: 1px solid green;
+    }
+}

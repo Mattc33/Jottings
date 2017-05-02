@@ -1,0 +1,14 @@
+<h3>Add Todo</h3>
+<!--event that needs to happen-->
+<form  (submit)="addTodo()">
+	<input type="Text" [(ngModel)]="text" name="text">
+</form>
+
+
+<h3>Todo List</h3>
+<ul>
+	<!--each element of array todos gets repeated-->
+	<li *ngFor="let todo of todos">
+		{{todo.text}} <button (click)="removeTodo(todo.text)" >x</button>
+	</li>
+</ul>

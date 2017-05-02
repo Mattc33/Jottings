@@ -4,10 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { InputComponent } from './input/input.component';
+import { TodosComponent } from './todos/todos.component';
+import { DockComponent } from './dock/dock.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InputComponent,
+    TodosComponent,
+    DockComponent
   ],
   imports: [
     BrowserModule,
